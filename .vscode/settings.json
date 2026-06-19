@@ -8,6 +8,12 @@
   },
   "editor.hover.enabled": "off",
   "editor.parameterHints.enabled": false,
+  "editor.quickSuggestions": {
+    "comments": "on",
+    "strings": "on",
+    "other": "on"
+  },
+  "editor.suggestOnTriggerCharacters": true,
   "python-envs.defaultEnvManager": "ms-python.python:conda",
   "python-envs.defaultPackageManager": "ms-python.python:conda"
 }

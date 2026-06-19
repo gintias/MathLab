@@ -6,8 +6,6 @@ The core idea is to add a **search/evidence engine** beside the existing mathema
 
 The search engine explores a large finite or symbolic space, but instead of returning only raw candidates, it returns a structured bundle of **facts, witnesses, counterexamples, counts, residual constraints, and coverage certificates**. The logical layer then translates that bundle into `FactKey`, `Fact`, `Certificate`, and possibly new `ObjectDraft`s. The workspace absorbs these into its `FactIndex`, `ConstructionGraph`, `ObjectRecord`s, theorem-rule engine, structural-node recognizer, and facets.
 
-In one line:
-
 ```text
 Search explores spaces.
 Logic translates results into durable facts.

@@ -13,7 +13,8 @@ implementation.
 
 - [Python pattern matching](concepts/python/pattern-matching.md)
 - [Algebraic syntax for first-order logic](Algebraic%20Syntax%20for%20First%20Order%20Logic.md)
-- [Core theory overview](concepts/mathematics/THEORY_OVERVIEW.md) — the default quick reference for the project's mathematical theory
+- [Theory Atlas](concepts/mathematics/THEORY_ATLAS.md) — the comprehensive mathematical ground reference
+- [UA admittance in FOL](concepts/mathematics/UA%20Admittance%20in%20FOL%20%E2%80%93%20Source%20Backed.md) — the source-backed reference for where universal algebra enters first-order logic
 
 ## Design
 
@@ -27,8 +28,8 @@ Current and proposed designs tied to the MathLab codebase.
 
 - [Logic group architecture](logic-package-architecture-plan.md)
 - [Full logic group architecture](logic-package-architecture-plan.md)
-- [Logical architecture integration](design/logic/logical-architecture-integration.md)
-- [Search-to-logic integration](design/logic/search-integration.md)
+- [Logical architecture integration](logical-architecture-integration.md)
+- [Search-to-logic integration](search-integration.md)
 
 ### Workspace
 

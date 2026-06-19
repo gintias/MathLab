@@ -1,0 +1,3 @@
+- Sort consumers nothing primitve, once sorst are fixed, every collection of things becomes S-indexed
+- Sort just string name, then everything that follows automatically consumers, will propogate down
+- maybe set default as single sorted

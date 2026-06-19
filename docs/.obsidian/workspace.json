@@ -4,21 +4,58 @@
     "type": "split",
     "children": [
       {
-        "id": "3084c535be985e28",
+        "id": "2f06ed2e0a58df34",
         "type": "tabs",
+        "dimension": 49.60282436010591,
         "children": [
           {
-            "id": "631f8286bbb2ab90",
+            "id": "167c779702eb8bd4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "concepts/mathematics/Universal Algebra in FOL – Specific Admittance Entry Points.md",
+                "file": "concepts/mathematics/THEORY_ATLAS.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Universal Algebra in FOL – Specific Admittance Entry Points"
+              "title": "THEORY_ATLAS"
+            }
+          },
+          {
+            "id": "dcd89bf6035a7d75",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "inbox/saved_code_snippets.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "saved_code_snippets"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "7a1b1b9e281949c8",
+        "type": "tabs",
+        "dimension": 50.39717563989409,
+        "children": [
+          {
+            "id": "e5570d181d7ae6ed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "design/logic/draft_preliminary_logic_package_architecture_proposal.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "draft_preliminary_logic_package_architecture_proposal"
             }
           }
         ]
@@ -78,7 +115,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 391.5
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "f3a6076e8738379c",
@@ -183,37 +221,40 @@
       "bases:Create new base": false
     }
   },
-  "active": "631f8286bbb2ab90",
+  "active": "dcd89bf6035a7d75",
   "lastOpenFiles": [
-    "concepts/mathematics/Universal Algebra in FOL – Specific Admittance Entry Points.md",
-    "concepts/mathematics/ua_fol_development_audit.md",
-    "concepts/mathematics/ua_admissions_in_single_sorted_fol.md",
-    "concepts/mathematics/Typed Context Trees and Sort-Correct Filling.md",
-    "concepts/mathematics/Universal Algebra for Syntax.md",
-    "concepts/mathematics/Algebraic Syntax for First Order Logic ATLAS.md",
-    "concepts/mathematics/ua_admissions_in_single_sorted_fol.md.crdownload",
-    "concepts/mathematics/Algebraic Syntax for First Order Logic.md",
-    "concepts/mathematics/Trees, Contexts and Substitution.md",
-    "concepts/mathematics/THEORY_OVERVIEW.md",
+    "design/logic/draft_preliminary_logic_package_architecture_proposal.md",
+    "inbox/saved_code_snippets.md",
+    "inbox/code  stuff.md",
+    "saved_code_snippets.md",
+    "design/logic/saved_code_snippets.md",
+    "design/logic/draft_preliminary_logic_package_architecture_proposal copy.md",
     "concepts/mathematics/THEORY_ATLAS.md",
+    "archive/logic-package-architecture-plan.md",
+    "archive/logical-architecture-integration.md",
+    "concepts/mathematics/Universal Algebra for Syntax.md",
+    "concepts/mathematics/UA Admittance in FOL – Source Backed.md",
+    "concepts/mathematics/Universal Algebra in FOL – Specific Admittance Entry Points.md",
     "concepts/mathematics/Sorted_Binding_Equational_Reasoning_theory_skeleton.md",
-    "theory_atlas_gen/many_sorted_algebraic_syntax_commuting_atlas_obsidian.md",
-    "theory_atlas_gen/algebraic_syntax_master_commuting_atlas_obsidian.md",
-    "theory_atlas_gen/theory_atlas-GRAPH FORMAT.md",
-    "theory_atlas_gen/theory_atlas-MATH-OUTLINE.md",
-    "theory_atlas_gen/theory_atlas_high_level_spine_v1.md",
-    "theory_atlas_gen/theory_atlas_math_density_template.md",
+    "concepts/mathematics/Parameterized Sentential Logic.md",
     "concepts/mathematics/Clones and Term Operations – The Fundamental Galois Connections of Universal Algebra.md",
-    "theory_atlas_gen/theory_atlas-ENTRY_ANATOMY(without type)+OBJECT_FORMAT.md",
+    "concepts/mathematics/Many Sorted First Order Logic – Theory Reference.md",
+    "concepts/mathematics/Algebraic Syntax for First Order Logic.md",
+    "concepts/mathematics/Many_Sorted_Typed_UA_setup.md",
+    "concepts/mathematics/Sorted Binding and Equational Reasoning.md",
+    "concepts/mathematics/THEORY_ATLAS(3)_renderer_normalized.md",
+    "concepts/mathematics/THEORY_ATLAS_definition_style_revised.md",
+    "THEORY_ATLAS_object_definition_format_mocks.md",
+    "THEORY_ATLAS_vertical_slice_style_window_shopping.md",
+    "theory_atlas_definition_style_revision.zip",
+    "Unconfirmed 344235.crdownload",
+    "index.md",
+    "concepts/mathematics/Algebraic Syntax for First Order Logic ATLAS.md",
+    "concepts/mathematics/Typed Context Trees and Sort-Correct Filling.md",
+    "design/logic/Untitled",
+    "concepts/mathematics/ua_admissions_in_single_sorted_fol.md.crdownload",
     "concepts/mathematics/theory_atlas_high_level_spine_v1.md.crdownload",
-    "theory_atlas_gen/theory_atlas-FLOW_OF_PRESENTATION.md",
-    "theory_atlas_gen/algebraic_syntax_atlas_index_and_master_graph_obsidian.md",
     "concepts/mathematics/algebraic_syntax_atlas_index_and_master_graph_obsidian.md.crdownload",
-    "theory_atlas_gen/many_sorted_algebraic_syntax_basic_atlas_skeleton.md",
-    "theory_atlas_gen/theory_atlas_generation_grammar.md",
-    "theory_atlas_gen/clone_context_descent_atlas_skeleton.md",
-    "theory_atlas_gen/algebraic_syntax_fol_atlas_skeleton.md",
-    "theory_atlas_gen/clones_term_operations_theory_skeleton.md",
     "theory_atlas_gen",
     "concepts/mathematics/theory_atlas_spine_v5.md.crdownload",
     "concepts/mathematics/Untitled"

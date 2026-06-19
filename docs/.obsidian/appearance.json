@@ -2,5 +2,9 @@
   "theme": "obsidian",
   "showRibbon": false,
   "baseFontSize": 20,
-  "accentColor": "#11d428"
+  "accentColor": "#11d428",
+  "translucency": true,
+  "nativeMenus": false,
+  "showViewHeader": false,
+  "cssTheme": "Dracula Official"
 }
