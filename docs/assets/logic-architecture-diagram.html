@@ -1,0 +1,131 @@
+<style>
+body { font-family: var(--font-sans); margin: 0; padding: 0; }
+.mermaid-container { width: 100%; overflow-x: auto; }
+.mermaid { display: flex; justify-content: center; }
+svg { max-width: 100%; height: auto; }
+</style>
+<div class="mermaid-container">
+<div class="mermaid">
+flowchart TD
+  subgraph LOGIC[logic/ — independent pure logical core]
+    T["Term AST<br/>Var, ObjRef"]
+    F["Formula AST<br/>In, Eq, And, Or, ForAll, Exists, PredCall"]
+    PS["PredicateSpec<br/>formal definitions"]
+    DP["DefinitionProfile<br/>logical complexity"]
+    CP["ComputationProfile<br/>metadata"]
+    FK[FactKey]
+    FT["Fact + FactStatus"]
+    CT[Certificate]
+    TR["TheoremRule<br/>trusted rule schema"]
+    SN["StructuralNodeSpec<br/>regime schema"]
+  end
+  
+  subgraph OBJECTS["objects/ — mathematical payloads"]
+    MO[MathObject]
+    FS[FiniteSet]
+    REL[Relation]
+    FN["Function-like payload"]
+    STR[Structure]
+  end
+  
+  subgraph WORKSPACE["workspace/ — mathematical ledger"]
+    WS[Workspace]
+    OR[ObjectRecord]
+    REG["Registry<br/>canonical keys + equality"]
+    CG[ConstructionGraph]
+    FI[FactIndex]
+    CE[CertificationEngine]
+    RE[RecognitionEngine]
+    EX["Explanation API"]
+  end
+  
+  subgraph CHECKERS["checkers/ — concrete verification bridge"]
+    CH["CheckerSpec + checker functions"]
+    RCH[relation checkers]
+    FCH[function checkers]
+    OCH[order checkers]
+  end
+  
+  subgraph SEARCH["search/ — evidence-producing exploration"]
+    SS[SearchSpace]
+    SQ[SearchQuery]
+    SC[SearchCoverage]
+    SR[SearchResultBundle]
+    FD[FactDelta]
+    ST[SearchTranslator]
+  end
+  
+  subgraph FACETS["facets/ — certified APIs"]
+    FB["Facet base"]
+    PF[PosetFacet]
+    FF[FunctionFacet]
+    LF[LatticeFacet]
+  end
+  
+  T --> F
+  F --> PS
+  PS --> DP
+  PS --> CP
+  FK --> FT
+  FT --> CT
+  TR --> FK
+  SN --> FK
+  
+  WS --> OR
+  WS --> REG
+  WS --> CG
+  WS --> FI
+  WS --> CE
+  WS --> RE
+  WS --> EX
+  OR --> MO
+  
+  WS --> LOGIC
+  CH --> LOGIC
+  CH --> OBJECTS
+  CH --> WORKSPACE
+  CE --> CH
+  CE --> FI
+  CE --> TR
+  RE --> SN
+  RE --> FI
+  RE --> FACETS
+  
+  SQ --> SS
+  SQ --> SEARCH
+  SEARCH --> SR
+  SR --> ST
+  ST --> FD
+  FD --> FI
+  FD --> CG
+  FD --> OR
+  
+  FACETS --> WORKSPACE
+  FACETS --> OBJECTS
+  
+  linkStyle default stroke-width:1px
+</div>
+</div>
+<script type="module">
+import mermaid from 'https://esm.sh/mermaid@11/dist/mermaid.esm.min.mjs';
+const dark = matchMedia('(prefers-color-scheme: dark)').matches;
+await document.fonts.ready;
+mermaid.initialize({
+  startOnLoad: false,
+  theme: 'base',
+  fontFamily: '"Anthropic Sans", sans-serif',
+  themeVariables: {
+    darkMode: dark,
+    fontSize: '13px',
+    fontFamily: '"Anthropic Sans", sans-serif',
+    primaryColor: dark ? '#3C3489' : '#EEEDFE',
+    primaryTextColor: dark ? '#CECBF6' : '#26215C',
+    primaryBorderColor: dark ? '#534AB7' : '#AFA9EC',
+    lineColor: dark ? '#888780' : '#B4B2A9',
+    secondBkgColor: dark ? '#085041' : '#E1F5EE',
+    tertiaryColor: dark ? '#712B13' : '#FAECE7',
+  },
+});
+const { svg } = await mermaid.render('arch-diagram', document.querySelector('.mermaid').textContent);
+document.querySelector('.mermaid').innerHTML = svg;
+</script>

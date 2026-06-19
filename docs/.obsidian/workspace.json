@@ -1,0 +1,221 @@
+{
+  "main": {
+    "id": "88a8fac7b1a0df62",
+    "type": "split",
+    "children": [
+      {
+        "id": "3084c535be985e28",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "631f8286bbb2ab90",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "concepts/mathematics/Universal Algebra in FOL – Specific Admittance Entry Points.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Universal Algebra in FOL – Specific Admittance Entry Points"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cde0c1a55564dd2e",
+    "type": "split",
+    "children": [
+      {
+        "id": "6024e91c5c8fa9d2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1c062184e1cd135c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "f57e44091303f355",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "9b7cc14eab70685f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 391.5
+  },
+  "right": {
+    "id": "f3a6076e8738379c",
+    "type": "split",
+    "children": [
+      {
+        "id": "1e4c3e804cdcf66a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2a66ac0c07dc7069",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "index.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for MathLab documentation"
+            }
+          },
+          {
+            "id": "919bd89e9b4a97bc",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "index.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from MathLab documentation"
+            }
+          },
+          {
+            "id": "8b16074dabe8f1c6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "0f7d3f4c3e6fda24",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "f21d3c4ac4e037f4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "index.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of MathLab documentation"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "631f8286bbb2ab90",
+  "lastOpenFiles": [
+    "concepts/mathematics/Universal Algebra in FOL – Specific Admittance Entry Points.md",
+    "concepts/mathematics/ua_fol_development_audit.md",
+    "concepts/mathematics/ua_admissions_in_single_sorted_fol.md",
+    "concepts/mathematics/Typed Context Trees and Sort-Correct Filling.md",
+    "concepts/mathematics/Universal Algebra for Syntax.md",
+    "concepts/mathematics/Algebraic Syntax for First Order Logic ATLAS.md",
+    "concepts/mathematics/ua_admissions_in_single_sorted_fol.md.crdownload",
+    "concepts/mathematics/Algebraic Syntax for First Order Logic.md",
+    "concepts/mathematics/Trees, Contexts and Substitution.md",
+    "concepts/mathematics/THEORY_OVERVIEW.md",
+    "concepts/mathematics/THEORY_ATLAS.md",
+    "concepts/mathematics/Sorted_Binding_Equational_Reasoning_theory_skeleton.md",
+    "theory_atlas_gen/many_sorted_algebraic_syntax_commuting_atlas_obsidian.md",
+    "theory_atlas_gen/algebraic_syntax_master_commuting_atlas_obsidian.md",
+    "theory_atlas_gen/theory_atlas-GRAPH FORMAT.md",
+    "theory_atlas_gen/theory_atlas-MATH-OUTLINE.md",
+    "theory_atlas_gen/theory_atlas_high_level_spine_v1.md",
+    "theory_atlas_gen/theory_atlas_math_density_template.md",
+    "concepts/mathematics/Clones and Term Operations – The Fundamental Galois Connections of Universal Algebra.md",
+    "theory_atlas_gen/theory_atlas-ENTRY_ANATOMY(without type)+OBJECT_FORMAT.md",
+    "concepts/mathematics/theory_atlas_high_level_spine_v1.md.crdownload",
+    "theory_atlas_gen/theory_atlas-FLOW_OF_PRESENTATION.md",
+    "theory_atlas_gen/algebraic_syntax_atlas_index_and_master_graph_obsidian.md",
+    "concepts/mathematics/algebraic_syntax_atlas_index_and_master_graph_obsidian.md.crdownload",
+    "theory_atlas_gen/many_sorted_algebraic_syntax_basic_atlas_skeleton.md",
+    "theory_atlas_gen/theory_atlas_generation_grammar.md",
+    "theory_atlas_gen/clone_context_descent_atlas_skeleton.md",
+    "theory_atlas_gen/algebraic_syntax_fol_atlas_skeleton.md",
+    "theory_atlas_gen/clones_term_operations_theory_skeleton.md",
+    "theory_atlas_gen",
+    "concepts/mathematics/theory_atlas_spine_v5.md.crdownload",
+    "concepts/mathematics/Untitled"
+  ]
+}

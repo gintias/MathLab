@@ -1,0 +1,13 @@
+{
+  "code-runner.runInTerminal": false,
+  "code-runner.executorMap": {
+    "python": "/usr/local/bin/python3 -u"
+  },
+  "editor.tokenColorCustomizations": {
+    "comments": "#22C55E"
+  },
+  "editor.hover.enabled": "off",
+  "editor.parameterHints.enabled": false,
+  "python-envs.defaultEnvManager": "ms-python.python:conda",
+  "python-envs.defaultPackageManager": "ms-python.python:conda"
+}

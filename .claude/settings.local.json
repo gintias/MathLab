@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/tias/Desktop/Code/**)",
+      "Bash(python3 -c ' *)"
+    ]
+  }
+}

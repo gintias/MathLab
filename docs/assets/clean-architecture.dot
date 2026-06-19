@@ -1,0 +1,47 @@
+digraph clean_arch {
+	bgcolor=white fontname=Helvetica nodesep=0.5 rankdir=TB ranksep=0.7 splines=line
+	node [fontname=Helvetica fontsize=12 margin="0.25,0.12" penwidth=1.5 shape=box style="rounded,filled"]
+	edge [arrowsize=0.9 color="#888" penwidth=1.2]
+	common [label="common/
+neutral utilities" color="#5F5E5A" fillcolor="#F1EFE8" fontcolor="#5F5E5A"]
+	logic [label="logic/
+pure claims" color="#534AB7" fillcolor="#EEEDFE" fontcolor="#534AB7"]
+	objects [label="objects/
+payloads" color="#0F6E56" fillcolor="#E1F5EE" fontcolor="#0F6E56"]
+	construction [label="construction/
+protocols" color="#854F0B" fillcolor="#FAEEDA" fontcolor="#854F0B"]
+	checkers [label="checkers/
+verification" color="#993556" fillcolor="#FBEAF0" fontcolor="#993556"]
+	search [label="search/
+evidence" color="#993C1D" fillcolor="#FAECE7" fontcolor="#993C1D"]
+	workspace [label="workspace/
+ledger + API" color="#185FA5" fillcolor="#E6F1FB" fontcolor="#185FA5"]
+	recognition [label="recognition/
+planner" color="#3B6D11" fillcolor="#EAF3DE" fontcolor="#3B6D11"]
+	facets [label="facets/
+certified APIs" color="#72243E" fillcolor="#F4C0D1" fontcolor="#72243E"]
+	{
+		rank=same
+		logic
+		objects
+	}
+	{
+		rank=same
+		construction
+		checkers
+		search
+	}
+	logic -> common
+	objects -> common
+	construction -> logic
+	construction -> objects
+	checkers -> logic
+	checkers -> objects
+	search -> logic
+	search -> objects
+	workspace -> construction
+	workspace -> checkers
+	workspace -> search
+	recognition -> workspace
+	facets -> recognition
+}
